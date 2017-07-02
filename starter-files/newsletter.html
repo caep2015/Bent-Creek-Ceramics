@@ -1,0 +1,50 @@
+<!-- Newsletter page layout -->
+<!--TODO: Title "Bent Creek Ceramics - Newsletter"-->
+<!--
+TODO: The newsletter signup page has a minimum height of the viewport's height.
+TODO:The "Name" input field on the newsletter page should have the type text.
+TODO:The "Email" input field on the newsletter page should have the type email.
+TODO:The newsletter signup module is centered horizontally and vertically on the page.
+-->
+<!-- Write your comments here -->
+
+
+
+<!-- newsletter-copy -->
+<!--
+
+"Sign Up for Our Weekly Newsletter"
+
+"Stay up to date with events, activities, news and specials."
+
+"Name"
+
+"Email"
+
+"Submit"
+
+"Copyright 2017, Bent Creek Ceramics"
+
+
+-->
+
+<body>
+
+<!-- Bonus -->
+  <script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function(e) {
+      var nameVal = nameInput.value;
+      var emailVal = emailInput.value;
+      if (nameVal && emailVal) {
+        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+        nameInput.value = "";
+        emailInput.value = "";
+      } else {
+        alert('We would love for you to sign up, please provide both your name and email address.');
+      }
+    });
+  </script>
+</body>
