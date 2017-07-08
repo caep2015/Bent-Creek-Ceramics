@@ -204,11 +204,10 @@ blockquote {
 .pans {
   flex: 1;
 }
-/*
+
 .pots {
-  max-width: 150px;
-  height: auto;
-}*/
+
+}
 
 table {
   border: 1px solid;
