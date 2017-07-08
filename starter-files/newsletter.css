@@ -31,12 +31,7 @@ navigation sytles */
   margin: 0;
   /*position: relative;*/
 }
-/*
-.nav {
-  margin: auto;
-  word-spacing: 50px
-}
-*/
+
 .nav {
   margin: auto;
   word-spacing: 50px
@@ -75,7 +70,7 @@ body {
 }
 
 .form {
-  width: 600px;
+  width: 550px;
   margin:auto;
   background: white;
   border-radius: 3px;

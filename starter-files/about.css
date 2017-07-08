@@ -17,6 +17,7 @@ h3 {
   margin: 0;
   background-color: #FFFFFF;
   display: flex;
+  box-shadow: 0px 5px 5px grey;
 }
 
 
