@@ -1,0 +1,224 @@
+h3 {
+  font-size: 200%;
+  font-weight: lighter;
+  padding: 10px;
+}
+/*
+navigation sytles */
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+
+#logo {
+  max-height: 40px;
+  padding: 10px;
+  margin: 0;
+  /*position: relative;*/
+}
+
+.nav {
+  margin: auto;
+  word-spacing: 50px
+
+}
+h4 {
+  background-color: #2B2F26;
+  font-family: Merriweather;
+  font-weight: lighter;
+  font-size: 120%;
+  padding: 10px;
+  color: white;
+  margin-left: 5px;
+}
+
+h5 {
+  font-family: Merriweather;
+  font-weight: lighter;
+  font-size: 150%;
+}
+h6 {
+  font-size: 500%;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  padding-right: 10px
+}
+.article {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.products {
+  margin: 0px;
+  padding: 0px;
+}
+
+.gallery1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.gallery2 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.photos {
+  position: relative;
+}
+
+.labels {
+  position: absolute;
+  margin-top: -70px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+
+#logo {
+  max-height: 40px;
+  padding: 10px;
+  margin: 0;
+  /*position: relative;*/
+}
+
+.nav {
+  margin: auto;
+  word-spacing: 50px
+
+}
+
+.wide {
+  width: 600px;
+  height: 300px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.tall {
+  width: 200px;
+  height: 300px;
+  padding: 5px
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  object-fit: cover;
+  clip: rect(0px, 60px, 200px, 0px);
+}
+
+.rect {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+}
+
+a {
+  font-family: Roboto;
+  color: #2B2F26;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+a:active {
+  color: #968772;
+}
+
+.birdhouse {
+  float: left;
+  max-width: 150px;
+  padding: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 2px solid #967343;
+  padding: 15px;
+}
+
+.r2g {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.plant {
+  height: 20em;
+  position: relative;
+  width: 150%;
+  object-fit: cover;
+
+}
+
+.grow {
+  font-family: Merriweather;
+  position: absolute;
+  margin-top: 100px
+}
+
+.textcolumns {
+  display: flex;
+}
+
+.fancy {
+  flex: 3;
+}
+
+.pans {
+  flex: 1;
+}
+
+.pots {
+
+}
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid;
+  padding: 20px;
+}
+
+.tableheader {
+  text-align: center;
+}
+
+
+.footy {
+  padding: 30px;
+  width: 100%;
+  margin: 0;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  font-family: Merriweather;
+}
