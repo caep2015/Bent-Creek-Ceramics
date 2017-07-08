@@ -19,8 +19,6 @@ h1 {
   margin-top: 40px;
 }
 
-
-
 h3 {
   font-size: 200%;
   font-weight: lighter;
@@ -67,6 +65,7 @@ p{
 .products {
   margin: 0px;
   padding: 0px;
+  margin-left: 10px;
 }
 
 .gallery1 {
