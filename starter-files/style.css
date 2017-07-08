@@ -68,22 +68,6 @@ h4 {
   position: absolute;
   margin-top: -70px;
 }
-/*
-.wrapper {
-  width: 100%;
-  margin: 0;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-}
-*/
-
-#logo {
-  max-height: 40px;
-  padding: 10px;
-  margin: 0;
-  position: relative;
-}
 
 
 .wide {
@@ -114,6 +98,13 @@ h4 {
 }
 
 /* navigation */
+
+#logo {
+  max-height: 40px;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+}
 .navbar {
   display: flex;
   justify-content: center;
@@ -140,7 +131,7 @@ h4 {
   color: #CD5D67;
 }
 
-.nabar a:active {
+.navbar a:active {
   color: #968772;
 }
 

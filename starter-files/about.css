@@ -3,8 +3,7 @@ h3 {
   font-weight: lighter;
   padding: 10px;
 }
-/*
-navigation sytles */
+/*navigation sytles */
 
 .wrapper {
   width: 100%;
@@ -24,6 +23,9 @@ navigation sytles */
 .nav {
   margin: auto;
   word-spacing: 50px
+
+}
+
 
 }
 h4 {
@@ -68,44 +70,6 @@ p{
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
-}
-
-
-#logo {
-  max-height: 40px;
-  padding: 10px;
-  margin: 0;
-  /*position: relative;*/
-}
-/* navigation */
-.navbar {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #FFFFFF;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #2B2F26;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: Roboto;
-  text-transform: uppercase;
-}
-
-.navbar a:hover {
-  color: #CD5D67;
-}
-
-.nabar a:active {
-  color: #968772;
 }
 
 
@@ -159,7 +123,7 @@ table {
   margin-right: auto;
 }
 
-td {
+td, th {
   border: 1px solid;
   padding: 20px;
 }
