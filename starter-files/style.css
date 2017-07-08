@@ -16,7 +16,7 @@ h1, h3 {
 h1 {
   font-size: 350%;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 h3 {
@@ -35,35 +35,15 @@ h4 {
   margin-left: 5px;
 }
 
-h5 {
-  font-family: Merriweather;
-  font-weight: lighter;
-  font-size: 150%;
-}
-
-h6 {
-  font-size: 500%;
-  font-weight: lighter;
+.main, .gallery1, .products, .gallery2, .photos, .labels, {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-
-
-p{
-  padding-right: 10px
-}
-.article {
-  padding-left: 75px;
-  padding-right: 75px;
-}
-
-.container {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .products {
-  margin: 0px;
+  margin-left: : 20px;
   padding: 0px;
   margin-left: 10px;
 }
@@ -88,7 +68,7 @@ p{
   position: absolute;
   margin-top: -70px;
 }
-
+/*
 .wrapper {
   width: 100%;
   margin: 0;
@@ -96,20 +76,15 @@ p{
   display: flex;
   justify-content: center;
 }
-
+*/
 
 #logo {
   max-height: 40px;
   padding: 10px;
   margin: 0;
-  /*position: relative;*/
+  position: relative;
 }
 
-.nav {
-  margin: auto;
-  word-spacing: 50px
-
-}
 
 .wide {
   width: 600px;
@@ -138,82 +113,47 @@ p{
   padding: 5px;
 }
 
-a {
-  font-family: Roboto;
+/* navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
   color: #2B2F26;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto;
   text-transform: uppercase;
 }
 
-a:hover {
+.navbar a:hover {
   color: #CD5D67;
 }
 
-a:active {
+.nabar a:active {
   color: #968772;
 }
 
-.birdhouse {
-  float: left;
-  max-width: 150px;
-  padding: 20px;
+/*  end navigation style */
+
+/* area between navigation and footer */
+/*
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
 }
-
-blockquote {
-  font-style: italic;
-  border-left: 2px solid #967343;
-  padding: 15px;
-}
-
-.r2g {
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.plant {
-  height: 20em;
-  position: relative;
-  width: 150%;
-  object-fit: cover;
-
-}
-
-.grow {
-  font-family: Merriweather;
-  position: absolute;
-  margin-top: 100px
-}
-
-.textcolumns {
-  display: flex;
-}
-
-.fancy {
-  flex: 3;
-}
-
-.pans {
-  flex: 1;
-}
-
-.pots {
-
-}
-
-table {
-  border: 1px solid;
-  border-collapse: collapse;
-  margin-right: auto;
-}
-
-td {
-  border: 1px solid;
-  padding: 20px;
-}
-
-.tableheader {
-  text-align: center;
-}
+*/
 
 
 .footy {

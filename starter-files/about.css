@@ -56,35 +56,10 @@ p{
   padding-right: 75px;
 }
 
+
 .container {
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.products {
-  margin: 0px;
-  padding: 0px;
-}
-
-.gallery1 {
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-}
-
-.gallery2 {
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-}
-
-.photos {
-  position: relative;
-}
-
-.labels {
-  position: absolute;
-  margin-top: -70px;
 }
 
 .wrapper {
@@ -102,53 +77,37 @@ p{
   margin: 0;
   /*position: relative;*/
 }
-
-.nav {
-  margin: auto;
-  word-spacing: 50px
-
+/* navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.wide {
-  width: 600px;
-  height: 300px;
-  padding: 5px;
-  margin: 0px;
-}
-
-.tall {
-  width: 200px;
-  height: 300px;
-  padding: 5px
-}
-
-.square {
-  height: 200px;
-  width: 200px;
-  padding: 5px;
-  object-fit: cover;
-  clip: rect(0px, 60px, 200px, 0px);
-}
-
-.rect {
-  width: 400px;
-  height: 200px;
-  padding: 5px;
-}
-
-a {
-  font-family: Roboto;
+.navbar a {
+  float: left;
+  display: block;
   color: #2B2F26;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto;
   text-transform: uppercase;
 }
 
-a:hover {
+.navbar a:hover {
   color: #CD5D67;
 }
 
-a:active {
+.nabar a:active {
   color: #968772;
 }
+
 
 .birdhouse {
   float: left;
@@ -172,7 +131,6 @@ blockquote {
   height: 20em;
   position: relative;
   width: 150%;
-  object-fit: cover;
 
 }
 
@@ -186,9 +144,6 @@ blockquote {
   display: flex;
 }
 
-.fancy {
-  flex: 3;
-}
 
 .pans {
   flex: 1;
