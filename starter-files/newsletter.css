@@ -31,11 +31,36 @@ navigation sytles */
   margin: 0;
   /*position: relative;*/
 }
-
+/*
 .nav {
   margin: auto;
   word-spacing: 50px
+}
+*/
+.nav {
+  margin: auto;
+  word-spacing: 50px
+  position: fixed;
+  background-color: #FFFFFF;
+}
 
+.nav a:hover {
+  color: #CD5D67;
+}
+
+.nav a:active {
+  color: #968772;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #2B2F26;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto;
+  text-transform: uppercase;
 }
 
 body {
@@ -167,43 +192,6 @@ input:focus  {
 
 input:focus + .input-field-icon {
   color: #34495e;
-}
-
-
-.social {
-  display: block;
-  margin: auto;
-  width: 500px;
-}
-
-.social li {
-  display: inline-block;
-  list-style: none;
-  margin: auto;
-  margin-right: 10px;
-}
-
-.social li a {
-  display:block;
-  text-decoration: none;
-  color: #999#;
-  border: 2px solid #999;
-  border-radius: 100%;
-  font-size: 26px;
-  width: 34px;
-  padding: 3px;
-  text-align: center;
-  transition: all .4s;
-}
-
-.social li a:hover {
-  background: #999;
-  color: white;
-}
-
-.social li a span {
-  margin-top: 4px;
-  text-align: center;
 }
 
 
