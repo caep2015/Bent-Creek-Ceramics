@@ -1,35 +1,36 @@
-<!-- Newsletter page layout -->
-<!--TODO: Title "Bent Creek Ceramics - Newsletter"-->
-<!--
-TODO: The newsletter signup page has a minimum height of the viewport's height.
-TODO:The "Name" input field on the newsletter page should have the type text.
-TODO:The "Email" input field on the newsletter page should have the type email.
-TODO:The newsletter signup module is centered horizontally and vertically on the page.
--->
-<!-- Write your comments here -->
+<!DOCTYPE html>
+<html>
 
-
-
-<!-- newsletter-copy -->
-<!--
-
-"Sign Up for Our Weekly Newsletter"
-
-"Stay up to date with events, activities, news and specials."
-
-"Name"
-
-"Email"
-
-"Submit"
-
-"Copyright 2017, Bent Creek Ceramics"
-
-
--->
-
+<head>
+  <meta charset="utf-8">
+  <title>Bent Creek Ceramics - Newsletter</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+</head>
 <body>
-
+  <style>
+    body {
+      background-image: url("images/background-2.jpg");
+    }
+  </style>
+  <div class="wrapper">
+    <div class="home">
+      <img id="logo" src="images/bent-creek-logo.png">
+    </div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="newsletter.html">Newsletter</a>
+    </div>
+  </div>
+  <div class="newsletter">
+    <h2>Sign Up for Our Weekly Newsletter</h2>
+    <h7>Stay up to date with events, activities, news and specials.</h7>
+    <input class="input" type="text" name="" value="Name">
+    <input class="input" type="text" name="" value="Email">
+    <button class="button" type="button" name="Submit">Submit</button>
+  </div>
 <!-- Bonus -->
   <script type="text/javascript">
     var nameInput = document.getElementById('nameInput');
@@ -48,3 +49,4 @@ TODO:The newsletter signup module is centered horizontally and vertically on the
     });
   </script>
 </body>
+</html>
