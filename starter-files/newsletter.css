@@ -14,15 +14,35 @@ h7 {
   font-weight: 400;
   text-align: center;
 }
+/*
+navigation sytles */
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+  display: flex;
+}
 
 
+#logo {
+  max-height: 40px;
+  padding: 10px;
+  margin: 0;
+  /*position: relative;*/
+}
 
-/*---codepen-- */
+.nav {
+  margin: auto;
+  word-spacing: 50px
+
+}
+
 body {
   background-image: url("images/background-2.jpg");
   background-size: cover;
-  backgroun-repeat: no-repeat;
-  font-family: "Roboto";
+  background-repeat: no-repeat;
+  font-family: Merriweather;
   font-weight: 300;
   color: #131511;
   font-size: .9em;
@@ -36,7 +56,7 @@ body {
   margin-top: 5em;
   margin-bottom: 6em;
   padding: 1.25em;
-  justify-content: center;
+  text-align: center;
 }
 
 h2 {
