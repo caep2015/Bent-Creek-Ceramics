@@ -10,9 +10,7 @@ body {
   margin: 0;
   background-color: #FFFFFF;
   display: flex;
-  -moz-box-shadow: 2px 2px 15px #ccc;
--webkit-box-shadow: 2px 2px 15px #ccc;
-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
 }
 
 .home {
@@ -28,8 +26,8 @@ box-shadow: 2px 2px 15px #ccc;
 
 .nav {
   margin: auto;
-  word-spacing: 50px
-  position: fixed;
+  /*word-spacing: 50px
+  position: fixed; */
   background-color: #FFFFFF;
 }
 
@@ -83,21 +81,14 @@ h4 {
 .main {
   padding: 16px;
   margin-top: 30px;
-  height: 750px;
 }
 
-
-.main, .gallery1, .products, .gallery2, .photos, .labels, {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
-  display: flex;
-  justify-content: space-between;
-}
 .products {
-  margin-left: : 20px;
-  padding: 0px;
-  margin-left: 10px;
+  padding-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .gallery1 {
@@ -151,8 +142,7 @@ h4 {
 
 .footy {
   padding: 30px;
-  width: 100%;
-  margin: 0;
+  display: flex;
   background-color: #2B2F26;
   color: #F2F1E8;
   font-family: Merriweather;
