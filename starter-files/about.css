@@ -57,8 +57,9 @@ h3 {
   text-transform: uppercase;
 }
 
-
-}
+a {
+  color: #967343;
+  }
 h4 {
   background-color: #2B2F26;
   font-family: Merriweather;
