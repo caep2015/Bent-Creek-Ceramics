@@ -4,6 +4,13 @@ body {
   padding: 0px;
   color: #131511;
 }
+
+h1 {
+  font-size: 300%;
+  font-weight: 400;
+  text-align: center;
+}
+
 h3 {
   font-size: 200%;
   font-weight: lighter;
@@ -17,8 +24,6 @@ h3 {
   margin: 0;
   background-color: #FFFFFF;
   display: flex;
-  -moz-box-shadow: 2px 2px 15px #ccc;
-  -webkit-box-shadow: 2px 2px 15px #ccc;
   box-shadow: 2px 2px 15px #ccc;
 
 }
@@ -75,7 +80,7 @@ h5 {
   font-size: 150%;
 }
 h6 {
-  font-size: 500%;
+  font-size: 300%;
   font-weight: lighter;
   display: flex;
   justify-content: center;
@@ -92,8 +97,10 @@ p{
 
 
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display:flex;
+  align-content: center;
 }
 
 
@@ -101,7 +108,7 @@ p{
 .birdhouse {
   float: left;
   max-width: 150px;
-  padding: 20px;
+  padding-right: 20px;
 }
 
 blockquote {
@@ -120,7 +127,7 @@ blockquote {
 .plant {
   height: 20em;
   position: relative;
-  width: 150%;
+  width: 168%;
 
 }
 
@@ -158,11 +165,12 @@ td, th {
   text-align: center;
 }
 
+#footer {
+  padding-top: 40px;
+}
 
 .footy {
   padding: 30px;
-  width: 100%;
-  margin: 0;
   background-color: #2B2F26;
   color: #F2F1E8;
   font-family: Merriweather;
