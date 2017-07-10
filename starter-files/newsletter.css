@@ -1,23 +1,13 @@
-/*
-body {
-  background-image: url("images/background-2.jpg");
-}
 
-h2 {
-  font-family: Merriweather;
-  font-weight: 300;
-  font-size: 175%;
-} */
-
-h7 {
+/* NEWSLETTER STYLES */
+h7 { /* newsletter styles */
   font-size: 125%;
   font-weight: 400;
   text-align: center;
 }
-/*
-navigation sytles */
+/*navigation sytles  for newsletter*/
 
-.wrapper {
+#body-styles .wrapper { /* wrapper for newsletter */
   width: 100%;
   margin: 0;
   background-color: #FFFFFF;
@@ -25,7 +15,7 @@ navigation sytles */
 }
 
 
-#logo {
+#logo { /* common with all */
   max-height: 40px;
   padding: 10px;
   margin: 0;
@@ -57,7 +47,7 @@ navigation sytles */
   text-transform: uppercase;
 }
 
-body {
+#body-styles {
   margin: 0;
   background-image: url("images/background-2.jpg");
   background-size: cover;
@@ -86,9 +76,7 @@ h2 {
   font-weight: 100;
 }
 
-h7 {
-  text-align: center;
-}
+
 
 .btn-primary {
   box-shadow: 0;
@@ -187,7 +175,6 @@ input:focus  {
 input:focus + .input-field-icon {
   color: #34495e;
 }
-
 
 @media (max-width: 600px) {
   .form {

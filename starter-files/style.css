@@ -13,6 +13,7 @@ body {
   box-shadow: 2px 2px 15px #ccc;
 }
 
+
 .home {
   float: left;
 }
@@ -87,6 +88,7 @@ h4 {
   padding-top: 20px;
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
 
 
 }
@@ -99,13 +101,13 @@ h4 {
 
 .gallery2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0px;
 }
 
 .photos {
   position: relative;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .labels {
@@ -115,28 +117,28 @@ h4 {
 
 
 .wide {
-  width: 600px;
-  height: 350px;
+  width: 575px;
+  height: 275px;
   margin: 0px;
   object-fit: cover;
 }
 
 .tall {
-  width: 200px;
-  height: 350px;
+  width: 170px;
+  height: 275px;
 
 }
 
 .square {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   object-fit: cover;
   clip: rect(0px, 60px, 200px, 0px);
 }
 
 .rect {
-  width: 400px;
-  height: 200px;
+  width: 385px;
+  height: 170px;
   object-fit: cover;
   padding: 5px;
 }

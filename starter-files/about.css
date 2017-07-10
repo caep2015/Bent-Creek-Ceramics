@@ -1,4 +1,4 @@
-body {
+body { /* about body */
   background-color: #F2F1E8;
   margin: 0;
   padding: 0px;
@@ -18,14 +18,12 @@ h3 {
 }
 /*navigation sytles */
 
-
 .wrapper {
   width: 100%;
   margin: 0;
   background-color: #FFFFFF;
   display: flex;
   box-shadow: 2px 2px 15px #ccc;
-
 }
 
 
